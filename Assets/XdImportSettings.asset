@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b87b7045c01a40039c29111029704d7, type: 3}
+  m_Name: XdImportSettings
+  m_EditorClassIdentifier: 
+  prefabOutputPath: Assets/{name}
+  assetOutputDirectoryPath: Assets/{name}/
+  metaOutputPath: Assets/{name}Meta
+  fontDirectoryPath: Assets/Fonts/
+  triggers:
+  - {fileID: 11400000, guid: 5715b24dea19a6540b55400235acf2d7, type: 2}
+  - {fileID: 11400000, guid: e4c9183385de31447b927cb5e35b5818, type: 2}
+  - {fileID: 11400000, guid: 6f7da3af288acf848bbaa977960cebcd, type: 2}
+  spriteSaveScale: 1
+  reimportLayout: 1
+  reimportAsset: 0
+  objectParsers:
+  - {fileID: 11400000, guid: eb4945650c129b94a802270649bf3708, type: 2}
+  groupParsers: []
+  xdTriggers: []
+  akyuiOutputPath: 
